@@ -20,8 +20,7 @@ export default function People() {
                 {item.friends.map((friends) => (
                     <tr key={friends.index}>
                         <td>{friends.name}</td>
-                        <td>{friends.hobbies}
-                        </td>
+                        <td>{friends.hobbies}</td>
                     </tr>
                 )
                 )}
