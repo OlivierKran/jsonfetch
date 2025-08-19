@@ -1,5 +1,6 @@
 html {
-  background-color: aqua;
+  background-color: #004b73;
+  color: white;
 }
 
 table {
@@ -7,12 +8,16 @@ table {
   border-collapse: collapse;
 }
 
+tbody {
+  margin: auto;
+}
+
 th {
-  border: 1px solid black;
+  border: 1px solid white;
 }
 
 tr, td {
-  border: 1px solid black;
+  border: 1px solid white;
   border-collapse: collapse;
   text-align: center;
 }
